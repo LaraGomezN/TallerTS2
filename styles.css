@@ -1,0 +1,18 @@
+.header {
+    background-color: rgb(15, 141, 187); /* Color azul */
+    color: rgb(0, 0, 0);
+    padding: 10px 20px; /* Espaciado alrededor del texto y la imagen */
+    display: flex;
+    align-items: center;
+}
+.header img {
+    width: 50px; /* Tamaño de la imagen */
+    height: auto;
+    margin-right: 15px; /* Espacio entre la imagen y el texto */
+}
+
+.table-container {
+    margin: 0 auto; /* Centra la tabla horizontalmente */
+    width: 150%; /* Define el ancho de la tabla, ajusta según necesidades */
+    max-width: 700px; /* Ajusta esto según el ancho máximo deseado */
+}
