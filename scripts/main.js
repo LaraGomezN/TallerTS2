@@ -31,7 +31,7 @@ function mostrarInformacion(xd, nombre) {
         var serie = xd_2[_i];
         if (serie.name == nombre) {
             var trElement = document.createElement("tr");
-            trElement.innerHTML = "<div class=\"card\" id=\"cardjaja\">\n                    <img class=\"card-img-top\" src=\"./".concat(serie.id, ".jpeg\">\n                    <div class=\"card-body\">\n                        <h5 class=\"card-title\">").concat(serie.name, "</h5>\n                        <p class=\"card-text\">").concat(serie.description, "</p>\n                        <a href=").concat(serie.link, ">").concat(serie.link, "</a>\n                    </div>\n                    </div>");
+            trElement.innerHTML = "<div class=\"card\" id=\"cardjaja\">\n                    <img class=\"card-img-top\" src=\"./imgs/".concat(serie.id, ".jpeg\">\n                    <div class=\"card-body\">\n                        <h5 class=\"card-title\">").concat(serie.name, "</h5>\n                        <p class=\"card-text\">").concat(serie.description, "</p>\n                        <a href=").concat(serie.link, ">").concat(serie.link, "</a>\n                    </div>\n                    </div>");
             cardInfo.appendChild(trElement);
         }
     }

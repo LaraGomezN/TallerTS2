@@ -48,7 +48,7 @@ function mostrarInformacion(xd: Serie[], nombre:string): void{
                 {
                     let trElement: HTMLElement = document.createElement("tr");
                     trElement.innerHTML = `<div class="card" id="cardjaja">
-                    <img class="card-img-top" src="./${serie.id}.jpeg">
+                    <img class="card-img-top" src="./imgs/${serie.id}.jpeg">
                     <div class="card-body">
                         <h5 class="card-title">${serie.name}</h5>
                         <p class="card-text">${serie.description}</p>
